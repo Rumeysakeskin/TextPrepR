@@ -24,6 +24,9 @@
 - `pip install contractions`
 - `pip install python -m spacy download en_core_web_sm`
 
+Install package by following command:
+`pip install textPrep`
+
 
 
 
