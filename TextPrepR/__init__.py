@@ -1,4 +1,4 @@
-from textPrep import utils
+from TextPrepR import utils
 
 __version__ = "0.0.1"
 

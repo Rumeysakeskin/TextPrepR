@@ -3,7 +3,7 @@ import setuptools
 
 with open('README.md', 'r') as file:
     desc = file.read()
-setuptools.setup(name='textPrep',
+setuptools.setup(name='TextPrepR',
                  version='0.0.1',
                  author='Rumeysa Keskin',
                  author_email='rumeyskeskn@gmail.com',
