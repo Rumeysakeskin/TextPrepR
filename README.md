@@ -32,16 +32,13 @@ import TextPrepR as tp
 
 text = 'howw arr yu todasyy?'
 tp.spelling_correction('en', text)
-
 >> TextBlob("how are you today?")
 
 text = 'how,, are you % today?'
 tp.get_special_chars(text)
-
 >> ',,   % ?'
 
 tp.remove_special_chars(text)
-
 >> 'how are you today'
 ```
 
