@@ -25,7 +25,14 @@
 - `pip install python -m spacy download en_core_web_sm`
 
 Install package by following command:
-`pip install textPrep`
+`pip install TextPrepR`
+
+```
+import TextPrepR as tp
+
+text = ''
+tp.get_word_counts(text)
+```
 
 
 
