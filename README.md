@@ -30,8 +30,10 @@ Install package by following command:
 ```
 import TextPrepR as tp
 
-text = ''
-tp.get_word_counts(text)
+text = 'howw arr yu todasyy?'
+tp.spelling_correction('en', text)
+
+>> TextBlob("how are you today?")
 ```
 
 
