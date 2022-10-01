@@ -34,6 +34,8 @@ text = 'howw arr yu todasyy?'
 tp.spelling_correction('en', text)
 
 >> TextBlob("how are you today?")
+
+get_special_chars(text)
 ```
 
 
