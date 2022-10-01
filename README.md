@@ -35,7 +35,14 @@ tp.spelling_correction('en', text)
 
 >> TextBlob("how are you today?")
 
-get_special_chars(text)
+text = 'how,, are you % today?'
+tp.get_special_chars(text)
+
+>> ',,   % ?'
+
+tp.remove_special_chars(text)
+
+>> 'how are you today'
 ```
 
 
