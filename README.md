@@ -31,8 +31,8 @@ Install package by following command:
 import TextPrepR as tp
 
 text = 'howw arr yu todasyy?'
-tp.spelling_correction('en', text)
->> TextBlob("how are you today?")
+tp.spelling_correction('en', text).raw_sentences[0]
+>> 'how are you today?'
 
 text = 'how,, are you % today?'
 tp.get_special_chars(text)
