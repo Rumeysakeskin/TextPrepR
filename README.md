@@ -18,14 +18,18 @@
 
 
 #### Requirements:
-- `pip install bs4`
-- `pip install spacy`
-- `pip install textblob`
-- `pip install contractions`
-- `pip install python -m spacy download en_core_web_sm`
+```
+pip install bs4
+pip install spacy
+pip install textblob
+pip install contractions
+pip install python -m spacy download en_core_web_sm
+```
 
 Install package by following command:
-`pip install TextPrepR`
+```
+pip install TextPrepR
+```
 
 ```
 import TextPrepR as tp
